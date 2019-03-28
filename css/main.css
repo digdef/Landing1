@@ -21,8 +21,17 @@ video {
 	width: 550px;
 }
 footer {
+	display: flex;
+	justify-content: flex-start;
+	padding-right: 10.5%;
+	padding-left: 10.5%;
 	background-color: #312f30;
 	height: 90px;
+	color: white;
+	font-size: 20px;
+}
+h3 {
+	padding-bottom: 10px;
 }
 .header-btn {
 	color: white;
@@ -78,4 +87,13 @@ footer {
 	display: flex;
 	margin-top: 100px;
 	margin-bottom: 100px;
+}
+.about {
+	display: flex;
+}
+.icon {
+	font-size: 40px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	color: #ff3f40;
 }
